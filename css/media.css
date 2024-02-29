@@ -61,7 +61,7 @@
 
   .hero__img-2 {
     right: 23.45%;
-    bottom: -145px;
+    bottom: -138px;
   }
 
   .about__descr {
@@ -167,7 +167,7 @@
   .slider .slide {
     padding: 62px 0 34px;
     height: unset;
-    background-image: url("../img/steps-background-slide.png");
+    background-image: url("../img/steps-background-slide.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -307,6 +307,10 @@
     text-align: center;
   }
 
+  .span-1, .span-2 {
+    text-align: left;
+  }
+
   .hero__item:first-child a {
     padding-top: 13px;
     padding-bottom: 13px;
@@ -396,11 +400,19 @@
     height: 32px;
   }
 
+  .span-1 {
+    text-align: center;
+  }
+
+  .span-2 {
+    text-align: end;
+  }
+
   .hero {
     margin-bottom: 49px;
     padding-top: 92px;
-    background-image: url("../img/body-img-mobile.jpg");
-    background-size: 100% 774px;
+    background-image: url("../img/hero-background-mobile.jpg");
+    background-size: 100% 775px;
   }
 
   .hero .container {
@@ -459,7 +471,7 @@
     width: 335px;
     height: 250px;
     background-size: unset;
-    background-image: url("../img/about-img-mobile.png");
+    background-image: url("../img/about-img-mobile.webp");
   }
 
   .about__box-2 {

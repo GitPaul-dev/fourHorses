@@ -239,9 +239,9 @@ img {
   left: 50%;
   padding-top: 26px;
   opacity: 0;
-  -webkit-transform:translateX(-50%);
-      -ms-transform:translateX(-50%);
-          transform:translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
 }
 
 .header.scroll-animation {
@@ -293,7 +293,7 @@ img {
   margin-bottom: 80px;
   padding-top: 124px;
   font-family: var(--font-family);
-  background-image: url("../img/body-img-1920.png");
+  background-image: url("../img/hero-background-1920.jpg");
   background-repeat: no-repeat;
   background-position: top;
   background-size: auto calc(100% - 60px);
@@ -660,7 +660,7 @@ img {
   border-radius: 50%;
   width: 394px;
   height: 250px;
-  background-image: url("../img/about-img.png");
+  background-image: url("../img/about-img.webp");
   background-position: center;
   background-repeat: no-repeat;
   opacity: 0;
@@ -978,7 +978,7 @@ img {
 .slide:nth-child(1) .steps__card,
 .slide:nth-child(3) .steps__card,
 .slide:nth-child(2) {
-  background-image: url("../img/steps-background-1.png");
+  background-image: url("../img/steps-background-1.jpg");
 }
 
 .slide:nth-child(2) {
@@ -995,7 +995,7 @@ img {
 .slide:nth-child(4) {
   -ms-grid-row: 3;
   grid-row: 3;
-  background-image: url("../img/steps-background-2.png");
+  background-image: url("../img/steps-background-2.jpg");
 }
 
 .slide:nth-child(5) {
@@ -1004,7 +1004,7 @@ img {
   grid-column: 2 / 4;
   padding-left: 25px;
   max-width: 808px;
-  background-image: url("../img/steps-background-3.png");
+  background-image: url("../img/steps-background-3.jpg");
   background-repeat: no-repeat;
   background-size: 99.5% 100%;
   background-position: right;
@@ -1231,8 +1231,8 @@ img {
   -ms-flex-align: center;
   align-items: center;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   height: auto;
 }
 

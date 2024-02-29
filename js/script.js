@@ -1,8 +1,5 @@
 window.addEventListener('DOMContentLoaded', () => {
-  const marquee = document.getElementById('marquee');
-  const body = document.querySelector('.body');
-  const sectionHero = document.getElementById('hero');
-
+  
   // Плавный скрол по якорным ссылкам
   document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
@@ -37,6 +34,7 @@ window.addEventListener('DOMContentLoaded', () => {
   // Анимация при скролле
   function animationScroll() {
     const animated = document.querySelectorAll('.must-animated');
+    const marquee = document.getElementById('marquee');
     const pawnChess = document.getElementById('pawnChess');
     const stepsTitle = document.getElementById('stepsTitle');
     const stepsMark = document.getElementById('stepsMark');
@@ -90,6 +88,7 @@ window.addEventListener('DOMContentLoaded', () => {
         slidesPerView: 2,
         slidesPerGroup: 2,
         spaceBetween: 30,
+        speed: 600,
 
         pagination: {
           formatFractionCurrent: function (number) {
@@ -103,6 +102,7 @@ window.addEventListener('DOMContentLoaded', () => {
         slidesPerView: 3,
         slidesPerGroup: 3,
         spaceBetween: 20,
+        speed: 800,
 
         pagination: {
           formatFractionCurrent: function (number) {
@@ -119,8 +119,6 @@ window.addEventListener('DOMContentLoaded', () => {
       stopOnLastSlide: false,
       disableOnInterection: false
     },
-
-    speed: 800,
   });
 
   // Слайдер "Этапы преображения Васюков"
@@ -184,13 +182,13 @@ window.addEventListener('DOMContentLoaded', () => {
 
       slidesPerView: 1,
       spaceBetween: 10,
-      speed: 800,
 
       breakpoints: {
         670: {
           slidesPerView: 2,
           slidesPerGroup: 1,
           spaceBetween: 20,
+          speed: 600,
         }
       }
     });
