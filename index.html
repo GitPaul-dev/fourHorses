@@ -51,18 +51,21 @@
         </div>
         <img class="hero__img-1 must-animated" id="pawnChess" src="./img/hero-img-pawn.webp"
           alt="Изображение пешки на шахматной доске">
-        <img class="hero__img-2" id="knightChess" src="./img/hero-img-knight.svg"
-          alt="Изображение коня на шахматной доске">
+          <picture class="hero__img-2" id="knightChess">
+            <source media="(max-width: 480px)" srcset="./img/hero-img-knight-mobile.png">
+            <source media="(min-width: 481px)" srcset="./img/hero-img-knight.png">
+            <img src="./img/hero-img-knight.png" alt="Изображение коня на шахматной доске">
+          </picture>
       </div>
       <ul class="list-reset running-line must-animated" id="marquee">
         <li>
           <p>Дело помощи утопающим — дело рук самих утопающих!</p>
           <p>Шахматы двигают вперед не только культуру, но и экономику!</p>
-          <p>Лед тронулся, господа присяжные заседатели!</p>
+          <p>Лёд тронулся, господа присяжные заседатели!</p>
         <li aria-hidden="true">
           <p>Дело помощи утопающим — дело рук самих утопающих!</p>
           <p>Шахматы двигают вперед не только культуру, но и экономику!</p>
-          <p>Лед тронулся, господа присяжные заседатели!</p>
+          <p>Лёд тронулся, господа присяжные заседатели!</p>
       </ul>
     </section>
     <section class="about container">
@@ -75,8 +78,11 @@
       </div>
       <div class="about__box-2">
         <div class="about__img-box-2 must-animated">
-          <img class="about__img-2" src="./img/about-img-2.webp" alt="Изображение играющего шахматиста">
-          <img class="about__img-2-mobile" src="./img/about-img-2-mobile.webp" alt="Изображение играющего шахматиста">
+          <picture class="about__img-2">
+            <source media="(max-width: 480px)" srcset="./img/about-img-2-mobile.webp">
+            <source media="(min-width: 481px)" srcset="./img/about-img-2.webp">
+            <img src="./img/about-img-2.png" alt="Изображение играющего шахматиста">
+          </picture>
         </div>
         <div class="about__inner">
           <p class="text about__descr must-animated">и Сеанс <span class="descr-2">одновременной игры в шахматы на 160 досках</span>
@@ -244,11 +250,11 @@
       <li>
         <p>Дело помощи утопающим — дело рук самих утопающих!</p>
         <p>Шахматы двигают вперед не только культуру, но и экономику!</p>
-        <p>Лед тронулся, господа присяжные заседатели!</p>
+        <p>Лёд тронулся, господа присяжные заседатели!</p>
       <li aria-hidden="true">
         <p>Дело помощи утопающим — дело рук самих утопающих!</p>
         <p>Шахматы двигают вперед не только культуру, но и экономику!</p>
-        <p>Лед тронулся, господа присяжные заседатели!</p>
+        <p>Лёд тронулся, господа присяжные заседатели!</p>
     </ul>
     <div class="container">
       <p class="footer__descr text must-animated">Все персонажи, события и цитаты являются вымышленными и не принадлежат
